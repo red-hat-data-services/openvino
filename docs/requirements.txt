@@ -49,3 +49,4 @@ toml==0.10.2
 urllib3==1.26.18
 zipp==3.4.1
 docs/openvino_custom_sphinx_sitemap
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
