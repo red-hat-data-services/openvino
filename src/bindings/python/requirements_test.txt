@@ -44,3 +44,4 @@ torchvision; platform_machine != 'arm64'
 sympy; platform_machine == 'arm64' and python_version >= '3.8'
 sympy; platform_machine != 'arm64'
 pillow
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
