@@ -44,3 +44,4 @@ torchvision; platform_machine != 'arm64'
 sympy; platform_machine == 'arm64' and python_version >= '3.8'
 sympy; platform_machine != 'arm64'
 pillow
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
